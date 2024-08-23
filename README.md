@@ -79,3 +79,53 @@ C语言实现数据结构与算法
    - 实现一个简单的数据库，支持基本的增删改查和索引操作。
    - 实现一个简单的图形化界面，用于展示数据结构（如树、图）的操作与变化。
    - 设计并实现一个迷宫生成和求解的程序，结合图的算法。
+
+## **目录结构**
+
+以下是**"C-StructAlgo"**项目的建议目录结构：
+
+```
+C-StructAlgo/
+│
+├── README.md                # 项目简介与说明
+├── LICENSE                  # 项目许可证
+├── Makefile                 # 项目构建和编译的Makefile
+├── docs/                    # 文档目录
+│   ├── design.md            # 设计文档
+│   └── algorithms.md        # 各类算法的详细说明
+│
+├── include/                 # 头文件目录
+│   ├── array.h              # 数组相关操作
+│   ├── linked_list.h        # 链表相关操作
+│   ├── stack.h              # 栈相关操作
+│   ├── queue.h              # 队列相关操作
+│   ├── tree.h               # 树相关操作
+│   ├── graph.h              # 图相关操作
+│   ├── heap.h               # 堆相关操作
+│   ├── sort.h               # 排序算法
+│   └── search.h             # 查找算法
+│
+├── src/                     # 源代码目录
+│   ├── array.c              # 数组相关操作实现
+│   ├── linked_list.c        # 链表相关操作实现
+│   ├── stack.c              # 栈相关操作实现
+│   ├── queue.c              # 队列相关操作实现
+│   ├── tree.c               # 树相关操作实现
+│   ├── graph.c              # 图相关操作实现
+│   ├── heap.c               # 堆相关操作实现
+│   ├── sort.c               # 排序算法实现
+│   ├── search.c             # 查找算法实现
+│   └── main.c               # 主程序入口，用于测试和演示
+│
+└── tests/                   # 测试代码目录
+    ├── test_array.c         # 数组相关操作的单元测试
+    ├── test_linked_list.c   # 链表相关操作的单元测试
+    ├── test_stack.c         # 栈相关操作的单元测试
+    ├── test_queue.c         # 队列相关操作的单元测试
+    ├── test_tree.c          # 树相关操作的单元测试
+    ├── test_graph.c         # 图相关操作的单元测试
+    ├── test_heap.c          # 堆相关操作的单元测试
+    ├── test_sort.c          # 排序算法的单元测试
+    ├── test_search.c        # 查找算法的单元测试
+    └── test_main.c          # 测试框架的主入口
+```
